@@ -1,16 +1,24 @@
-# dev_tacs
+# DevTacs Flutter Workshop 5
 
-A new Flutter project.
+This is the starter project for Post app, which include API integration in flutter
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Run the following code on terminal to install packages.
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```python
+# Starting page
+OnboardingPage()
+
+# Home Page which include all posts
+HomePage()
+
+# Page to create new posts
+NewPostPage()
+```
